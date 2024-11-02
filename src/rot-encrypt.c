@@ -5,7 +5,6 @@ int encrypt(const char *plaintext, const int rotations)
     // Make sure we're not passed a NULL-pointer
     if (plaintext == NULL)
     {
-        (void) fprintf(stderr, "xor-encrypt.c:3: argument 'plaintext' is NULL\n");
         return EXIT_FAILURE;
     }
 
